@@ -1,0 +1,45 @@
+
+<VAST version="3.0">
+    <Ad id="static">
+        <InLine>
+            <AdSystem>Static VAST Template</AdSystem>
+            <AdTitle>Static VAST Tag</AdTitle>
+            <Impression>https://vidaneh.com/api/content/vast/impression?id=48</Impression>
+            <Creatives>
+                <Creative sequence="1" id="static">
+                    <Linear skipoffset="00:00:05">
+                        <Duration>00:00:31</Duration>
+                        <TrackingEvents>
+                            <Tracking event="skip"></Tracking>
+                        </TrackingEvents>
+                        <Icons>
+                            <Icon program="AdChoices" xPosition="left" yPosition="bottom">
+                                <StaticResource creativeType="image/png">
+                                    <![CDATA[https://cdn13.vidaneh.com/vidaneh/vast_icon/vast_icon_48_gamebox_tPOrwby.png]]>
+                                </StaticResource>
+                                <HTMLResource>
+                                    {"call_to_action":{"button":"funny 1234 player","bg":"#000000"},"title":{"text":""}}
+                                </HTMLResource>
+                                <IconClicks>
+                                    <IconClickThrough>
+                                        <![CDATA[https://play.google.com/store/apps/details?id=com.missingames.gamebox]]>
+                                    </IconClickThrough>
+                                </IconClicks>
+                            </Icon>
+                        </Icons>
+                        <VideoClicks>
+                            <ClickThrough>https://play.google.com/store/apps/details?id=com.missingames.gamebox</ClickThrough>
+                            <ClickTracking event="skip"></ClickTracking>
+                        </VideoClicks>
+                        <MediaFiles>
+                            <MediaFile type="video/mp4" bitrate="300" width="480" height="270">
+                                http://vod1.dooorbin.com/mp4/1002/15345_480.mp4
+                            </MediaFile>
+                        </MediaFiles>
+                    </Linear>
+                </Creative>
+            </Creatives>
+        </InLine>
+    </Ad>
+</VAST>
+
